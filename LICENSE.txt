@@ -1,0 +1,52 @@
+Tower Asteroid 塔防小行星
+Copyright (c) 2026 MiloJan. All rights reserved.
+
+You are welcome to play this game for free at:
+  https://milojan.itch.io/tower-asteroid
+  https://m9921039-ctrl.github.io/tower-asteroid-play/
+
+The game's source code, graphics, level design and other content are NOT
+open source. Except for playing the game through the links above, you may not
+copy, modify, redistribute, re-host, sell or publish this game or any part of
+it, or use it in other projects, without prior written permission from the
+author. Viewing the code in your browser does not grant any license to use it.
+
+Third-party components keep their own licenses:
+  three.js (vendor/three.min.js) - MIT License (full text below)
+
+----------------------------------------------------------------------
+
+本遊戲歡迎透過上面的連結免費遊玩。
+
+遊戲的程式碼、圖像、關卡設計與其他內容皆非開放原始碼，作者保留所有權利。
+除了透過上述連結遊玩之外，未經作者事前書面同意，不得重製、修改、散布、
+轉載到其他網站、販售或公開發表本遊戲或其任何部分，也不得用於其他專案。
+能在瀏覽器中看到程式碼，不代表取得任何使用授權。
+
+第三方元件依各自的授權條款：
+  three.js（vendor/three.min.js）— MIT 授權（全文附在下方）
+
+----------------------------------------------------------------------
+three.js (vendor/three.min.js) - https://github.com/mrdoob/three.js
+
+The MIT License
+
+Copyright © 2010-2023 three.js authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.

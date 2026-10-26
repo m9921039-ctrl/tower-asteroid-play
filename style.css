@@ -72,6 +72,19 @@ body.phone #info { font-size: 16px; }
 body.phone #controls { width: 196px; gap: 6px; }
 body.phone #controls button { font-size: 20px; padding: 8px 10px; }
 body.phone #waveBtn { font-size: 23px; }
+body.float #app { overflow: hidden; }
+body.float #topbar, body.float #bottombar { position: absolute; left: 0; right: 0; z-index: 6; background: none; border: 0; pointer-events: none; }
+body.float #topbar { top: 0; padding-top: 6px; height: auto; }
+body.float #bottombar { bottom: 0; }
+body.float #topbar .stat, body.float #topbar button, body.float .tower-btn, body.float #controls button, body.float #info:not(:empty) { pointer-events: auto; }
+body.float #topbar .stat, body.float #topbar button { background: rgba(22, 27, 45, 0.62); box-shadow: none; backdrop-filter: blur(4px); }
+body.float #topbar button.on { background: rgba(30, 95, 116, 0.8); }
+body.float #enemiesLeft:empty { background: none; backdrop-filter: none; pointer-events: none; }
+body.float .tower-btn { background: rgba(28, 34, 56, 0.6); border-color: rgba(255, 255, 255, 0.14); backdrop-filter: blur(4px); }
+body.float #info { background: rgba(14, 18, 32, 0.72); backdrop-filter: blur(4px); }
+body.float #info:empty { visibility: hidden; }
+body.float #controls button { opacity: 0.9; }
+body.float #chat { bottom: 160px; }
 @media (max-height: 520px) {
   #topbar { height: 32px; gap: 6px; font-size: 14px; }
   #topbar .stat { padding: 2px 8px; font-size: 12px; }
